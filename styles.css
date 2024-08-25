@@ -1,0 +1,65 @@
+div{
+    /* background-color: red;
+    background-color: rgb(255, 0, 0);
+    background-color: rgb(0 0 255 / 50);
+    background-color: #FF0000; */
+    /* background-position: x y; */
+    /* background-position: top right; */
+    /* background-position: fixed; */
+    /* background-position: 40px 0; */
+    /* background-position: 50% 40%; */
+    /* background-size: cover; fill content */
+    /* background-attachment: fixed; //TO appear all time */
+
+    /* Padding */
+
+    /* top right bottom left */
+    /* 10px 10px 10px 10px */
+    padding: 10px;
+    /* if only two values provided then
+    bottom --> top
+    left --> right
+    10px 20px 10px 20px */
+    padding: 10px 20px;
+    /* Padding accept position , percentage only */
+    /* Applied on the level of container  */
+
+    /* Margin */
+    /* Accepts negative value, positive, percentage
+    Applied on the page level
+    Used to center element on the page level
+    not the container level */
+
+    width: 70%;
+    /* To always center the element regardless the width */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Consume 10px from element itself
+    To solve this issue we can use
+    outline (legacy) or box sizing */
+    /* outline doesn't support different direction */
+    border: 10px solid red;
+
+    /* Display */
+
+    /* Block
+
+    - Task full width if no width defined
+    - Add line break
+    - Respect padding, margin, width and height
+    
+    Inline
+
+    - Doesn't respect width, height
+    - Respect padding right, left.
+    - Respect marine right, left.
+    - Doesn't add line break.
+
+    Inline-block
+
+    - Provides inline display with the respect
+    properties of padding and margin all directions.
+    - Respect padding, margin, width and height
+    */
+}
